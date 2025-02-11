@@ -7,11 +7,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your number");
         int n = sc.nextInt();
-        System.out.println("You have entered the number " +n);
+        Polindrome polindrome = new Polindrome();
+        System.out.println(polindrome.checkIfPolindrome(n));
+       // System.out.println("You have entered the number " +n);
         DivisorSum divisorSum = new DivisorSum();
         SimpleIfElse simpleIfElse = new SimpleIfElse();
        // System.out.println("The divisor sum for your inputted number " +n+ " is "  +divisorSum.divisor_sum(n));
-        System.out.println(simpleIfElse.checkIfElse(n));
+        // System.out.println(simpleIfElse.checkIfElse(n));
         sc.close();
 
 
